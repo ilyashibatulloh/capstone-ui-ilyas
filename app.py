@@ -122,7 +122,7 @@ def index():
     plt.bar(X['App'],X['Installs'], color=my_colors)
     plt.title('The 5 Most Downloaded Action Games')
     plt.xlabel('App Name')
-    plt.ylabel('Rating')
+    plt.ylabel('Tnstallation')
     plt.savefig('top5 install_action_game.png',bbox_inches="tight")
     
     figfile = BytesIO()
